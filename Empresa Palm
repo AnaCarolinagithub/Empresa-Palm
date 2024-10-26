@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Palm </title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .inicio {
+            background-image: url('dispositivospalm.png'); 
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+       }
+
+    .btn-primary{
+        background-color: orange;
+        border-color: orange;
+        color: white; 
+    }
+      </style>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="logopalm.png" alt="Logo Palm" class="logo me-2"> 
+                <span >Palm </span> </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historia">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Inicio -->
+    <section class="inicio">
+        <div class="container text-center">
+            <a href="#historia" class="btn btn-primary btn-lg"> Explore a História </a>
+        </div>
+    </section>
+
+    <!-- História -->
+    <section id="historia" class="py-5">
+        <div class="container text-center">
+            <h2>História e Legado</h2>
+<p>	Em 1992, Jeff Hawkins fundou a Palm com a ambição de mudar a forma como as pessoas organizavam suas vidas. Mas foi em 1996, com o lançamento do icônico Palm Pilot, que a empresa conquistou seu lugar na história. O Pilot foi o primeiro PDA (Personal Digital Assistant) a realmente engajar o público, funcionando como um “computador de bolso” que simplificava o dia a dia com calendário, emails, notas e listas de tarefas – uma agenda eletrônica muito à frente de seu tempo.
+
+<br> <br> 
+A Palm não parou por aí. Introduziu recursos inovadores como o Graffiti, uma tecnologia de reconhecimento de escrita à mão que permitia ao usuário desenhar letras e símbolos diretamente na tela – algo tão inovador que até a Apple aproveitou a ideia no Newton.
+
+<br> <br>
+
+Em 1995, antes mesmo do boom do Palm Pilot, a Palm foi comprada pela U.S. Robotics Corp.. Dois anos depois, a 3Com assumiu a empresa, mas os fundadores, em busca de novos desafios, saíram para criar a Handspring, responsável por lançar o Treo, um dos primeiros smartphones equipados com PalmOS.
+
+Em 2002, a Palm foi dividida:
+
+PalmSource, que cuidava do desenvolvimento e licenciamento do PalmOS.
+PalmOne, focada no hardware e que mais tarde se fundiu novamente com a Handspring.
+Pouco tempo depois, em 2005, a Palm voltou a ser uma única empresa e lançou sucessos como o Palm Treo e o Palm Pre.
+
+<br> <br>
+
+Em 2010, a Palm foi comprada pela HP, que apostava no potencial do WebOS. Infelizmente, o projeto não decolou, e em 2011 a Palm encerrou suas atividades.
+
+No entanto, em 2015, a marca foi licenciada pela TCL, dona de nomes como Alcatel e BlackBerry. Embora muitos esperassem um retorno triunfal, até agora nenhum novo dispositivo foi anunciado.
+
+<br> <br>
+</p>
+
+            <img src="empresapalm.png" alt="Empresa Palm" class="img-fluid my-3">
+        </div>
+    </section>
+
+<!-- Produtos -->
+<section id="produtos" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2>Produtos Palm</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-4">
+            
+            <!-- Card 1 -->
+            <div class="card1">
+                <div class="card h-100">
+                    <img src="palmpiloto.png" class="card-img-top" alt="Dispositivo 1">
+                    <div class="conteudo ">
+                        <h5 class="card-title">Pilot</h5>
+                        <p class="card-text">Lançados em 1996, o Palm Pilot 1000 e Pilot 5000 traziam uma tela LCD monocromática com resolução de 160 x 160 pixels, processador Motorola de 16 MHz e 512 KB de memória interna, números impressionantes para a época.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card2">
+                <div class="card h-100">
+                    <img src="palmtreo.png" class="card-img-top" alt="Dispositivo 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Treo</h5>
+                        <p class="card-text">Rodando o PalmOS, os modelos traziam funções avançadas como navegação na Web e alguns recursos de organização pessoal importados do PDAs na época. Tratavam-se de alguns dos primeiros smartphones do mercado, ainda cheios de botões e com a interface pouco familiar ao touch como a mostrada por Steve Jobs no iPhone em 2007.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card3">
+                <div class="card h-100">
+                    <img src="palmFoleo.png" class="card-img-top" alt="Dispositivo 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Foleo</h5>
+                        <p class="card-text">Com tela de 10 polegadas, o dispositivo rodava Linux e se assemelhava mais a um netbook do que a um tablet em si. Segundo a empresa, o Foleo teria fácil comunicação com os smartphones Treo e seriam uma ótima companhia para os celulares. No entanto, o produto nem sequer chegou às lojas, já que a companhia anunciou o cancelamento do projeto antes mesmo do seu lançamento oficial. </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card4">
+                <div class="card h-100">
+                    <img src="PalmCentro.png" class="card-img-top" alt="Dispositivo 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Palm Centro</h5>
+                        <p class="card-text">Com um baixo preço e a presença de comunicadores instantâneos habilitados, uma câmera de 1.3 megapixel e todos os recursos de um palm da linha Palm Tungsten, o Palm Centro teve grande sucesso.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+ <!-- Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Quer saber mais? Entre em Contato Conosco</h2>
+            <form class="w-50 mx-auto mt-4">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label"> Sua Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="text-center bg-dark text-white py-3">
+        <p>&copy; Palm 2024.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
